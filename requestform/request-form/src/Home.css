@@ -1,0 +1,48 @@
+.home-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .leave-application-form {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-application-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leave-application-form input,
+  .leave-application-form textarea,
+  .leave-application-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .leave-application-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .leave-application-form button {
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .leave-application-form button:hover {
+    background-color: #003366;
+  }
+  
